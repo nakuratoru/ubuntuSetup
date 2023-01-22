@@ -1,0 +1,12 @@
+alias del rm
+alias ren mv
+alias ls 'ls -F'
+alias ll 'ls -al'
+alias c clear
+alias xterm 'xterm -ls /bin/tcsh -fg white -bg #002300 -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true"'
+alias vi vim
+alias s 'source ~/.cshrc'
+alias ssh 'ssh -X'
+alias keyrepeat xset r rate 300 25
+alias vscode 'code -n'
+alias gdm 'google-drive-ocamlfuse ~/GoogleDrive/'

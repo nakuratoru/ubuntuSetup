@@ -1,0 +1,19 @@
+syntax off
+set nohlsearch
+set noai
+set noautoindent
+set nosmartindent
+set nocindent
+set nobackup
+set noignorecase
+set tabstop=4
+set indentexpr=""
+set paste
+"set expandtab
+set laststatus=1
+set cmdheight=1
+set showmatch
+set guioptions-=T
+set guioptions-=r
+set guioptions-=b
+set visualbell t_vb="'visualbel' : beep off. 't_vb':display_flash off
