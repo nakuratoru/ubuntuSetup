@@ -24,6 +24,8 @@ alias klayout 'setenv XDG_SESSION_TYPE x11; klayout'
 set path = ($path ~/.local/bin)
 set path = ($path ~/.local/openlane_summary)
 set path = ($path /usr/local/oss-cad-suite/bin)
+set path = ($path /usr/local/riscv64-unknown-elf-toolchain-10.2.0/bin)
+alias riscv 'setenv GCC_PATH /usr/local/riscv64-unknown-elf-toolchain-10.2.0/bin; setenv GCC_PREFIX riscv64-unknown-elf'
 
 setenv OPENEDA_INST_DIR ~/openEDA
 setenv CARAVEL_DIR caravel_user_project
