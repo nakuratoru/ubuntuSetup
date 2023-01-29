@@ -3,7 +3,7 @@ alias ren mv
 alias ls 'ls -F'
 alias ll 'ls -al'
 alias c clear
-alias xterm 'xterm -ls /bin/tcsh -fg white -bg #002300 -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true"'
+alias xterm 'xterm -ls /bin/tcsh -fg white -bg #002300 -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -b 0'
 alias vi vim
 alias s 'source ~/.cshrc'
 alias ssh 'ssh -X'
