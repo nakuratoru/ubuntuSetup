@@ -1,9 +1,9 @@
 #!/bin/csh -f
 
-xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -geometry 80x80+92+0 &
-xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -geometry 80x80+711+0 &
-xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -geometry 80x38-17+0 &
-xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -geometry 80x27-17+606 &
-xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -geometry 80x8-17-0 &
+xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -b 0 -geometry 80x80+92+0 &
+xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -b 0 -geometry 80x80+711+0 &
+xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -b 0 -geometry 80x38-17+0 &
+xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -b 0 -geometry 80x27-17+606 &
+xterm -fg white -bg '#002300' -cr white -cm +sb -fn a14 -xrm "XTerm*selectToClipboard: true" -b 0 -geometry 80x8-17-0 &
 
 xset r rate 300 25
